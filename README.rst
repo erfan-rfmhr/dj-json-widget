@@ -1,5 +1,5 @@
 =============================
-django-json-widget
+dj-json-widget
 =============================
 
 .. image:: https://badge.fury.io/py/django-json-widget.svg
@@ -17,9 +17,9 @@ An alternative widget that makes it easy to edit the new Django's field JSONFiel
 Quickstart
 ----------
 
-Install django-json-widget::
+Install dj-json-widget::
 
-    pip install django-json-widget
+    pip install dj-json-widget
 
 Add it to your `INSTALLED_APPS`:
 
