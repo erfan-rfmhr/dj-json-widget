@@ -45,20 +45,20 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='django-json-widget',
-    version='2.0.1',
+    name='dj-json-widget',
+    version='2.1.2',
     description="""Django json widget is an alternative widget that makes it easy to edit the jsonfield field of django.""",
     long_description=readme + '\n\n' + history,
-    author='José Manuel Rivas',
-    author_email='jmrivas86@gmail.com',
-    url='https://github.com/jmrivas86/django-json-widget',
+    author='Erfan Arefmehr',
+    author_email='erfan.arefmehr@gmail.com',
+    url='https://github.com/erfan-rfmhr/dj-json-widget',
     packages=[
         'django_json_widget',
     ],
     include_package_data=True,
     license="MIT",
     zip_safe=False,
-    keywords='django-json-widget',
+    keywords='dj-json-widget',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Framework :: Django',
